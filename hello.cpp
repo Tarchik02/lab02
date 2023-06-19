@@ -1,9 +1,9 @@
 #include <iostream>
-#include <string>
+#include <string> //Подключаем библиотеку "string"
 int main()
 {
 	std::string name;
-	std::cin <<name;
+	std::cin <<name; //Вводим имя
 	std::cout <<"Hello world from " <<name;
 	return 0;
 }
